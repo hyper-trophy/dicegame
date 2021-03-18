@@ -1,0 +1,44 @@
+body {
+    text-align: center;
+    background-image: url('../images/image_9.png');
+    background-attachment: fixed;
+    font-family: 'Comfortaa', cursive;
+}
+
+.mainCont {
+    padding-top: 8%;
+}
+
+.heading,
+p {
+    font-family: 'Comfortaa', cursive;
+    color: #8c0000;
+}
+
+.diceRow {
+    width: 50%;
+}
+
+.player1Dice {
+    width: 90%;
+    max-width: 12rem;
+}
+
+.player2Dice {
+    width: 90%;
+    max-width: 12rem;
+}
+
+.rollButton {
+    font-family: 'Comfortaa', cursive;
+    border-color: #8c0000!important;
+    border-width: 1.5px !important;
+    color: #8c0000 !important;
+    width: 40%;
+}
+
+@media (max-width: 500px) {
+    .mainCont {
+        padding-top: 0;
+    }
+}
